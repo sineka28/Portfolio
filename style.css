@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 30px;
+}
+<section id="home"></section>
+<section id="about"></section>
+<section id="skills"></section>
+<section id="projects"></section>
+<section id="contact"></section>
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7ff;
+  color: #222;
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+  transform: scale(1.05);
+}
+.home-container {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: white;
+  border-radius: 0 0 40px 40px;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home-container h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.home-container p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  display: inline-block;
+  width: 250px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+#contact {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+#contact p {
+  margin: 10px 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-container {
+  animation: fadeIn 1.2s ease-in-out;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+#contact a {
+  display: inline-block;
+  margin: 8px;
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
